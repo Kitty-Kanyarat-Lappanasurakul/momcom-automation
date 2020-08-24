@@ -1,0 +1,27 @@
+{
+  "name": "websitecypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^3.8.1",
+    "cypress-xpath": "^1.4.0",
+    "ls": "^0.2.1",
+    "mocha": "5.2.0",
+    "mochawesome": "^4.0.1",
+    "mochawesome-merge": "^2.0.1",
+    "rimraf": "^2.6.3",
+    "yargs": "^13.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cy:verify": "cypress verify"
+  },
+  "author": "",
+  "license": "ISC"
+}

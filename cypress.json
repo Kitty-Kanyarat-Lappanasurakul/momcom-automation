@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://mom.com",
+  "viewportWidth": 1366,
+  "viewportHeight": 768,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports/mochawesome-report",
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "screenshotsFolder": "cypress/reports/mochawesome-report/assets",
+  "projectId": "v2q88d"
+}
